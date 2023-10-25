@@ -1,4 +1,4 @@
-package ramesh;
+package project_nike;
 
 import java.awt.AWTException;
 import java.awt.Robot;
@@ -20,7 +20,7 @@ public class baseclasspom {
 	private WebElement logo2;
 	
 	//findstore
-	@FindBy(xpath = "(//span[@id='hf_header_find_a_store'])[1]")
+	@FindBy(xpath = "(//span[@id='hf_header_find_a_store'])")
 	private WebElement findstore;
 	
 	//help
@@ -311,3 +311,4 @@ public class baseclasspom {
 		others.click();
 	}
 }
+
